@@ -39,7 +39,7 @@ define('ASTRO_STT_PREFIX', 'astro_stt_');
 define('ASTRO_STT_TEXTDOMAIN', astro_stt_plugin_data('TextDomain'));
 
 /**
- * Loading Text Domain.F
+ * Loading Text Domain.
  */
 add_action( 'init', 'astro_stt_load_textdomain' );
 function astro_stt_load_textdomain() {
