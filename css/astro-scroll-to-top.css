@@ -1,0 +1,36 @@
+.astro_stt_button {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    z-index: 99999;
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 2px 2px 2px #999;
+}
+.astro_stt_button:not(:hover) {
+    background: #1f1f1f;
+}
+.astro_stt_button:hover {
+    background: #0f0f0f;
+}
+.astro_stt_button.active {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+.astro_stt_button:not(.active) {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.astro_stt_icon {
+    fill: #FFFFFF;
+}
