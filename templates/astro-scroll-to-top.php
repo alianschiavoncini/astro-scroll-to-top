@@ -1,6 +1,5 @@
 <?php
 $enable_everywhere = get_option(ASTRO_STT_PREFIX . 'enable_everywhere');
-//var_dump($enable_everywhere);
 
 if (!$enable_everywhere || $enable_everywhere == '') { return; }
 ?>

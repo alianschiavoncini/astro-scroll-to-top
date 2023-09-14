@@ -2,7 +2,7 @@
 /*
  * Plugin Name:       Astro Scroll To Top
  * Plugin URI:        https://wordpress.org/plugins/astro-scroll-to-top
- * Description:
+ * Description:       This plugin displays the scroll to the top button on your website.
  * Version:           0.1.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
